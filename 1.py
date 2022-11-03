@@ -13,5 +13,5 @@ last_element3 = otherdeck[-1]
 last_element4 = otherdeck[-2]
 print("Ur last two cards " + str(last_element), end=" ")
 print(last_element2)
-print("Ur last two cards " + str(last_element3) , end=" ")
+print("NPC's last two cards " + str(last_element3) , end=" ")
 print(last_element4)
