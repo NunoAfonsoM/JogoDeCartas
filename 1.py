@@ -5,8 +5,8 @@ deck = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
 otherdeck = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
 random.shuffle(deck)
 random.shuffle(otherdeck)
-print("Ur deck" + str(deck))
-print("NPC'S deck" + str(otherdeck))
+print("Ur deck " + str(deck))
+print("NPC'S deck " + str(otherdeck))
 last_element = deck[-1]
 last_element2 = deck[-2]
 last_element3 = otherdeck[-1]
