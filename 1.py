@@ -1,6 +1,16 @@
 import random
 import numpy as np
 
+def translate(card):
+    if card == "J":
+        return 11
+    elif card == "Q":
+        return 12
+    elif card == "K":
+        return 13
+    elif card == "A":
+        return 14
+
 deck = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
 otherdeck = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
 random.shuffle(deck)
